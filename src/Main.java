@@ -4,7 +4,7 @@ public class Main {
         int height = 187;//в сантиметрах избежим дробей при вводе параметров
         int weight = 98;//в килограммах
 
-        double bmIndex = service.calculate(weight,height);
+        int bmIndex = service.calculate(weight, height);
         System.out.println(bmIndex);
 
     }

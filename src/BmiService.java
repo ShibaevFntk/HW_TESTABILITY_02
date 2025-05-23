@@ -1,8 +1,8 @@
 public class BmiService {//создал класс
-    public double calculate(int m, int h) {//Определил метод, задал параметр
+    public int calculate(int mass, int height) {//Определил метод, задал параметр
 
         //ИМТ = масса тела (кг) / рост² (м²)
-        return Math.round((double)m/((double)h*(double)h/10000) * 100.0) / 100.0;
+        return (int)((double)mass / ((double)height * (double)height /10000));
 
     }
 }
