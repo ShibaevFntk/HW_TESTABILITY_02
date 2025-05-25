@@ -1,4 +1,5 @@
 public class BmiService {//создал класс
+
     public int calculate(int mass, int height) {//Определил метод, задал параметр
 
         //ИМТ = масса тела (кг) / рост² (м²)
